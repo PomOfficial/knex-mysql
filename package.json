@@ -1,6 +1,6 @@
 {
   "name": "@pomofficial/knex-mysql",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "MySQL Knex support for Pomegranate",
   "main": "index.js",
   "files": [
