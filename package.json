@@ -1,0 +1,41 @@
+{
+  "name": "@pomofficial/knex-mysql",
+  "version": "0.0.1",
+  "description": "MySQL Knex support for Pomegranate",
+  "main": "index.js",
+  "files": [
+    "index.d.ts",
+    "index.js.map",
+    "Readme.md",
+    "LICENCE"
+  ],
+  "scripts": {
+    "prepublishOnly": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PomOfficial/knex-mysql.git"
+  },
+  "keywords": [
+    "MySQL",
+    "Knex",
+    "Pomegranate"
+  ],
+  "author": "Jim Bulkowski <jim.b@paperelectron.com> (http://paperelectron.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PomOfficial/knex-mysql/issues"
+  },
+  "homepage": "https://github.com/PomOfficial/knex-mysql#readme",
+  "dependencies": {
+    "@pomegranate/plugin-tools": "^2.0.7",
+    "lodash": "^4.17.11",
+    "mysql2": "^2.1.0"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.133",
+    "@types/node": "^12.0.5",
+    "typescript": "^3.5.1"
+  }
+}
