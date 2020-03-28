@@ -30,7 +30,7 @@
   "homepage": "https://github.com/PomOfficial/knex-mysql#readme",
   "dependencies": {
     "@pomegranate/plugin-tools": "^2.0.7",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.13",
     "mysql2": "^2.1.0"
   },
   "devDependencies": {
